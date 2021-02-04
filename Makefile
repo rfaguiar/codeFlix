@@ -34,9 +34,14 @@ create-protoc:
 go-run-grpc:
 	go run main.go grpc
 
+go-run-all:
+	go run main.go all
+
 evans:
 	evans -r repl;
 
 #create cobra commandline interface
 #cobra-init:
 #	cobra init --pkg codepix;
+
+
